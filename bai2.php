@@ -87,6 +87,37 @@ echo '<br>';
 $ket_qua2 = so_sanh(99);
 echo $ket_qua2;
 
+echo '<br>';
+// isset - kiểm tra một biến có tồn tại/định nghĩa chưa && khác null
+if (isset($xyz)) {
+    echo 'xyz tồn tại';
+} else {
+    echo 'xyz không tồn tại';
+}
+
+echo '<br>';
+
+$y = '';
+// empty - hàm kiểm tra biến có bằng  : 0 0.0 "0" "" NULL FALSE array()
+if (empty($y)) {
+    echo 'bằng rỗng';
+} else {
+    echo 'khác rỗng';
+}
+
+// !empty (isset && empty) - kiểm tra một biến có tồn tại và khác : 0 0.0 "0" "" NULL FALSE array()
+if (!empty($z)) {
+    echo 'tồn tại và khác rỗng';
+} else {
+    echo 'khác';
+}
+
+if (isset($z) && empty($z)) { // !empty($z)
+
+}
+
+
+
 
 
 
