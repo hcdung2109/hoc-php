@@ -116,6 +116,20 @@ if (isset($z) && empty($z)) { // !empty($z)
 
 }
 
+// Foreach : Thường được sử dụng để duyệt các phần tử của một mảng
+$arrNames3 = ['DEV1','DEV2','DEV3','DEV4'];
+
+foreach ($arrNames3 as $index => $item) {
+    echo '<br>'.$item;
+}
+
+// For
+$so_luong = count($arrNames3);
+
+for ($i = 0; $i < $so_luong; $i++) {
+    echo '<br>'.$arrNames3[$i];
+}
+
 
 
 
