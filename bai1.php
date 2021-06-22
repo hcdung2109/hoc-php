@@ -1,4 +1,8 @@
 <?php
+    // Quy tắc để đặt tên biến - hàm
+    // $ten_chuc_nang
+    // $tenChucNang
+
     // Chú Thích 1
 
     /*
@@ -91,5 +95,7 @@
 
     hello3('Dung', 32, 'HN'); // Xin chào : Dung, Tuổi : 32 , Đ/C : hn
     hello3('DEV', 10, 'HN'); // Xin chào : Dung, Tuổi : 32 , Đ/C : hn
+
+
 
 ?>
