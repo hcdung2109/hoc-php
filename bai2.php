@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+
 // Mảng
 $name = 'Dung';
 $name2 = 'Dung2';
@@ -50,7 +53,7 @@ if (3 > 5) {
 echo '<br>';
 // dạng ngắn gọn của if ... else
 // (điều_kiện) ? (biểu_thức_1 : sau if ) : (biểu_thức_2 : else)
-$giatri = (4 > 5) ? 'lớn hơn' : 'nhỏ hơn';
+$giatri = (4 > 5) ? 'lớn hơn' : 'nhỏ hơn'; // nhỏ hơn
 echo $giatri;
 
 
@@ -62,6 +65,8 @@ if ($x > 5) {
     echo ' == 4';
 } elseif ($x >= 5) {
     echo ' >= 5';
+
+    //.....elseif
 } else {
     echo 'cuoi cung';
 }
@@ -117,7 +122,7 @@ if (isset($z) && empty($z)) { // !empty($z)
 }
 
 // Foreach : Thường được sử dụng để duyệt các phần tử của một mảng
-$arrNames3 = ['DEV1','DEV2','DEV3','DEV4'];
+$arrNames3 = ['DEV1','DEV2','DEV3','DEV4']; // $index = 0,1,2,3
 
 foreach ($arrNames3 as $index => $item) {
     echo '<br>'.$item;
@@ -129,6 +134,11 @@ $so_luong = count($arrNames3);
 for ($i = 0; $i < $so_luong; $i++) {
     echo '<br>'.$arrNames3[$i];
 }
+
+// Hàm date()
+echo '<br>'.date('Y-m-d');
+echo '<br>'.date('d-m-Y');
+echo '<br>'.date('d-m-Y H:i:s');
 
 
 
