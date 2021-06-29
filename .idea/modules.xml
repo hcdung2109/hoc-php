@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/hoc-php.iml" filepath="$PROJECT_DIR$/.idea/hoc-php.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hocphp-dev2013/.idea/hocphp-dev2013.iml" filepath="$PROJECT_DIR$/../hocphp-dev2013/.idea/hocphp-dev2013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mvc/.idea/mvc.iml" filepath="$PROJECT_DIR$/../mvc/.idea/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../opp/.idea/opp.iml" filepath="$PROJECT_DIR$/../opp/.idea/opp.iml" />
     </modules>
   </component>
 </project>
